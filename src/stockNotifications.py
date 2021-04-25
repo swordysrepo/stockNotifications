@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 24 19:28:47 2021
 
-@author: james
+@author: swordysrepo
 """
 import bs4 
 import bs4 as BeautifulSoup
