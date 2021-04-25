@@ -44,13 +44,16 @@ class stock_check():
         pass
     def percentage_change(self,STOCK,STOCK_price):
         old_price = self.set_price(STOCK,STOCK_price)
-        
-        return (round((old_price - STOCK_price ) / old_price * 100),3),old_price
+        percentage = (old_price - STOCK_price ) / old_price * 100
+        # print(percentage)
+        rounded_percentage = round(percentage,3)
+        # print(rounded_percentage)
+        return rounded_percentage , old_price
     
     def update_and_alert(self,STOCK,STOCK_price):
         
         percentage_change,old_price = self.percentage_change(STOCK,STOCK_price)
-        
+        # print(percentage_change)
         if percentage_change >= PERCENTAGE_TO_ALERT:
             self.send_alert(STOCK,STOCK_price, old_price, percentage_change)
             self.send_notification(STOCK,STOCK_price, old_price, percentage_change)
@@ -74,7 +77,7 @@ class stock_check():
         
         if DESKTOP_NOTIFICATIONS == True:
             status = self.pos_neg(percentage_change)
-            toaster.show_toast("Stock {STOCK}",\
+            toaster.show_toast(f"Stock {STOCK}",\
             f"stock {STOCK} has {status}\n\
             {percentage_change} % \n\
             PRICE : {STOCK_price} PREVIOUS : {old_price}\
@@ -82,7 +85,6 @@ class stock_check():
             icon_path=None,
             duration=5,
             threaded=True)
-            print("got here")
             # Wait for threaded notification to finish
             while toaster.notification_active(): time.sleep(0.1)
         
@@ -110,12 +112,13 @@ class stock_check():
                 print(f"printed {current_stock} stock of the list. remaining : {stock_count - current_stock}")
                 today_time = datetime.now()
                 print(f"waiting {REFRESH_TIME} seconds .. at time : {today_time.strftime('%H:%M:%S')}\n")
-                # print(f"waiting {REFRESH_TIME} seconds .. at {datetime.now()}")
         
             time.sleep(REFRESH_TIME)
             
 if __name__ == "__main__":
     stock = stock_check()
+
+    
 
     
 
