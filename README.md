@@ -36,18 +36,18 @@ in command prompt
 **options:**
 
 
-*no notifications (only prints the result in cmd, no update notification)
+  *no notifications (only prints the result in cmd, no update notification)
 
-*no desktop notifications (prints in cmd and sends alerts (not updates))
+  *no desktop notifications (prints in cmd and sends alerts (not updates))
 
 
 **upcoming update::**
 
-*adding an overlay for the current stock price
+  *adding an overlay for the current stock price
 
-*sound alerts
+  *sound alerts
 
-*discord notifications
+  *discord notifications
 
 
 
