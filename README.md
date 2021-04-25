@@ -31,7 +31,7 @@ in command prompt
 
 ## **Features:**
 
-- report changes of more than 2% or so in the day
+- reports % of change since last query
 - desktop notifications<picture of the desktop notification>
 
 - discord notifications (future update)<picture of the discord>
@@ -54,6 +54,8 @@ in command prompt
 
   - discord notifications
   - packaging this as one
+  - adding percentage change of current hour
+  - adding percentage change of the day
 
   - documentation for custom options inside cmd (instead of editting project files)
 
