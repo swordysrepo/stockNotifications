@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 24 21:00:04 2021
 
-@author: james
+@author: swordysrepo
 """
 
 REFRESH_TIME = 120 #seconds
