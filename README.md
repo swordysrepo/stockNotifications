@@ -14,7 +14,7 @@ to use this project we need to install the stockquotes library using
 
 
 we run our project using 
-```python stocknotify``` 
+```python stocknotify.py``` 
 in command prompt
 
 
@@ -43,6 +43,7 @@ in command prompt
   - sound alerts
 
   - discord notifications
+  - documentation for custom options inside cmd (instead of editting project files)
 
 
 
