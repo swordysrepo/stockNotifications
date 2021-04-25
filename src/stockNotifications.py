@@ -45,7 +45,7 @@ class stock_check():
     def percentage_change(self,STOCK,STOCK_price):
         old_price = self.set_price(STOCK,STOCK_price)
         
-        return ((old_price - STOCK_price ) / old_price * 100),old_price
+        return (round((old_price - STOCK_price ) / old_price * 100),3),old_price
     
     def update_and_alert(self,STOCK,STOCK_price):
         
