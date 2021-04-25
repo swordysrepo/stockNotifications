@@ -14,8 +14,18 @@ to use this project we need to install the stockquotes library using
 
 
 we run our project using 
-```python stocknotify.py``` 
+```python stockNotifications.py``` 
 in command prompt
+
+# **Usage:*
+## dependencies
+
+- install bs4 ```pip install bs4```
+- install win10toast ```pip install win10toast```
+- change stocks to collect (inside constants.py file)
+- set desktop notification on or off (in config.py file)
+
+
 
 
 
@@ -43,6 +53,8 @@ in command prompt
   - sound alerts
 
   - discord notifications
+  - packaging this as one
+
   - documentation for custom options inside cmd (instead of editting project files)
 
 
