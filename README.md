@@ -23,14 +23,21 @@ we run our project using
 ```python stocknotify``` 
 in command prompt
 
+
+
 Features:
 
 report changes of more than 2% or so in the day
 
 
 
+
+
 options:
+
+
 no notifications (only prints the result in cmd, no update notification)
+
 no desktop notifications (prints in cmd and sends alerts (not updates))
 
 
