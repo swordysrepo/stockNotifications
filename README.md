@@ -25,7 +25,7 @@ in command prompt
 
 
 
-**Features:**
+##**Features:**
 
 -report changes of more than 2% or so in the day
 -desktop notifications
@@ -33,7 +33,7 @@ in command prompt
 -sound alerts (future update)
 
 
-**options:**
+##**options:**
 
 
   -no notifications (only prints the result in cmd, no update notification)
@@ -41,7 +41,7 @@ in command prompt
   -no desktop notifications (prints in cmd and sends alerts (not updates))
 
 
-**upcoming update::**
+##**upcoming update::**
 
   -adding an overlay for the current stock price
 
