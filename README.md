@@ -25,27 +25,29 @@ in command prompt
 
 
 
-Features:
+**Features:**
 
-report changes of more than 2% or so in the day
-
-
-
-
-
-options:
+*report changes of more than 2% or so in the day
+*desktop notifications
+*discord notifications (future update)
+*sound alerts (future update)
 
 
-no notifications (only prints the result in cmd, no update notification)
-
-no desktop notifications (prints in cmd and sends alerts (not updates))
+**options:**
 
 
-upcoming update::
+*no notifications (only prints the result in cmd, no update notification)
 
-adding an overlay for the current stock price
+*no desktop notifications (prints in cmd and sends alerts (not updates))
 
-sound alerts
+
+**upcoming update::**
+
+*adding an overlay for the current stock price
+
+*sound alerts
+
+*discord notifications
 
 
 
