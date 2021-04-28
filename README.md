@@ -24,7 +24,9 @@ in command prompt
 - install win10toast ```pip install win10toast```
 - change stocks to collect (inside constants.py file)
 - set desktop notification on or off (in config.py file)
-
+- install xampp for windows 
+- start xampp mysql and apache
+- create database in phpmyadmin named "stocks"
 
 
 
